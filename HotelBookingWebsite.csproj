@@ -131,6 +131,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoaiPhongController.cs" />
+    <Compile Include="Controllers\PhongController.cs" />
+    <Compile Include="Controllers\TimPhongController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -241,6 +243,12 @@
     <Content Include="Views\LoaiPhong\Index.cshtml" />
     <Content Include="Views\LoaiPhong\Edit.cshtml" />
     <Content Include="Views\LoaiPhong\Delete.cshtml" />
+    <Content Include="Views\Phong\Create.cshtml" />
+    <Content Include="Views\Phong\Delete.cshtml" />
+    <Content Include="Views\Phong\Details.cshtml" />
+    <Content Include="Views\Phong\Edit.cshtml" />
+    <Content Include="Views\Phong\Index.cshtml" />
+    <Content Include="Views\TimPhong\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
